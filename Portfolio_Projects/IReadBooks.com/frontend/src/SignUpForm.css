@@ -1,0 +1,150 @@
+.signUpContainer {
+   width: 100%;
+   max-width: 620px;
+   height: 170px;
+   margin-bottom: 420px;
+   margin-right: 30px;
+   margin-left: auto;
+   background-color: rgb(226, 176, 88);
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 0 10px rgb(31, 61, 80);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   z-index: 1010;
+}
+
+.signUpMessage {
+   color: rgb(95, 95, 60);
+   font-family: "Montserrat", sans-serif;
+   font-weight: bold;
+   font-size: 17px;
+   margin-top: 7px;
+   margin-bottom: 7px;
+   margin-left: -40px;
+}
+
+.backToSignIn {
+   color: black;
+   font-family: "Montserrat", sans-serif;
+}
+
+#signUpEmail {
+   background-color: darkgoldenrod;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   color: black;
+}
+
+#signUpUsername {
+   background-color: darkgoldenrod;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   color: black;
+   margin-top: 4px;
+}
+
+.passwordDiv {
+   margin-bottom: 4px;
+   margin-top: 4px;
+   position: relative;
+}
+
+.confirmPasswordDiv {
+   margin-bottom: 10px;
+   position: relative;
+}
+
+#signUpPassword {
+   background-color: darkgoldenrod;
+   margin-right: 10px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   color: black;
+}
+
+.passwordToggleIcon {
+   position: absolute;
+   top: 20%;
+   right: 20px;
+   color: black;
+}
+
+.confirmPasswordToggleIcon {
+   position: absolute;
+   top: 20%;
+   right: 20px;
+   color: black;
+
+}
+
+.signUpButton {
+   width: 180px;
+   color: rgb(180, 180, 102);
+   background-color: rgb(0, 0, 0);
+   padding: 1.5px;
+   border: 2px solid black;
+   border-radius: 7px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   cursor: default;
+}
+
+.signUpButton:hover {
+   background-color: rgb(70, 62, 58);
+   transform: scale(1.1);
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+   .signUpContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 350px;
+      padding: 20px 10px;
+      box-sizing: border-box;
+      align-items: center;
+      gap: 10px;
+      height: 330px;
+      margin-left: 30px;
+      margin-top: 350px;
+      border: 2px solid rgb(138, 138, 72);
+      background-color: rgb(226, 176, 88);
+      border-radius: 8px;
+      z-index: 1010;
+   }
+
+   .signUpMessage {
+      font-size: 15px;
+      text-align: center;
+      margin: 0 0 10px 0;
+   }
+
+   .passwordDiv,
+   .confirmPasswordDiv {
+      width: 100%;
+   }
+
+   #signUpEmail,
+   #signUpUsername,
+   #signUpPassword {
+      width: 100%;
+      box-sizing: border-box;
+   }
+
+   .signUpButton {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+   }
+
+   .passwordToggleIcon,
+   .confirmPasswordToggleIcon {
+      right: 10px;
+   }
+}

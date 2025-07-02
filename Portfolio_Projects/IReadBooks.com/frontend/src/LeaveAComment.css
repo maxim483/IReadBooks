@@ -1,0 +1,65 @@
+  .bookCover {
+      height: 200px;
+      width: 170px;
+  }
+
+  .textarea {
+      border: none;
+      width: 19%;
+      height: 60px;
+      background-color: rgb(105, 144, 167);
+      font-family: "Montserrat", sans-serif;
+      font-weight: 200;
+      font-size: 15px;
+      box-sizing: border-box;
+      border: 2px solid black;
+      color: black;
+      font-weight: 500;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      text-align: left;
+  }
+
+  textarea:focus {
+      outline: none;
+      color: black;
+  }
+
+  textarea::placeholder {
+      color: black;
+  }
+
+  .submitComment {
+      width: 150px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: rgb(86, 132, 158);
+      color: black;
+      border: 2px solid black;
+      border-radius: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      cursor: default;
+  }
+
+  .submitComment:hover {
+      background-color: rgb(50, 111, 149);
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+      font-weight: 700;
+      cursor: pointer;
+  }
+
+
+  @media(max-width: 768px) {
+      .textarea {
+          width: 35%;
+      }
+  }
+
+
+  @media(max-width: 600px) {
+      .textarea {
+          width: 60%;
+      }
+  }

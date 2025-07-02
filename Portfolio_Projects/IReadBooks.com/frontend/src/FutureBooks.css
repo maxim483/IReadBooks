@@ -1,0 +1,40 @@
+.markAsReading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(173, 8, 8);
+    width: 20%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.markAsReadingButton {
+    padding: 10px;
+    margin: 3px;
+    margin: auto 20px 0px auto;
+    margin-bottom: 20px;
+    width: 180px;
+    background-color: rgb(86, 132, 158);
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: default;
+}
+
+.markAsReadingButton:hover {
+    background-color: rgb(50, 111, 149);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+@media(max-width: 600px) {
+
+    .markAsReadingButton {
+        margin-left: 80px !important;
+    }
+}

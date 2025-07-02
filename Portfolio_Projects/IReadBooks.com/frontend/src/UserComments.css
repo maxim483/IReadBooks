@@ -1,0 +1,116 @@
+.booksAdsOverlay {
+    width: 100vw;
+    display: flex;
+    flex-direction: inline;
+}
+
+.commentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookCover {
+    width: 300px;
+    height: 400px;
+}
+
+.commentsList {
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.userCommentsH4 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+.username {
+    font-weight: 500;
+}
+
+.comment {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+.createdAt {
+    font-weight: 500;
+}
+
+.leaveACommentButton {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(91, 135, 162);
+    width: 150px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    cursor: default;
+    margin-top: 10px;
+}
+
+.leaveACommentButton:hover {
+    background-color: rgb(50, 111, 149);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.goBackButton {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(91, 135, 162);
+    width: 150px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    cursor: default;
+    margin-top: 10px;
+}
+
+.goBackButton:hover {
+    background-color: rgb(50, 111, 149);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.noComments {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.notUser {
+    margin-top: 10px;
+    color: red;
+    font-family: "Montserrat", sans-serif;
+}
+
+.checked {
+    color: #ffc107;
+}
+
+.unchecked {
+    color: #e4e5e9;
+}
+
+
+@media(max-width: 768px) {
+    .commentsList {
+        width: 55%;
+    }
+}
+
+@media(max-width: 600px) {
+    .commentsList {
+        width: 70%;
+    }
+}
