@@ -100,7 +100,7 @@ Users can:
 
 - Sign in and sign out  
   ![Signed in welcome](AppImages/HomepageWelcomeNoteFull.png)  
-  ![Signed in UI](AppImages/HomePageSignedinFull.png)  
+  ![Signed in UI](AppImages/HomepageSignedinFull.png)  
   ![Signed out](AppImages/HomepageLogoutMessagePhone.png)
 
 - Post comments and rate books (1 to 5 stars)  
