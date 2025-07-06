@@ -21,7 +21,7 @@ Optimized for a seamless experience across all devices:
 - Past Books  
   ![PastBooks - Laptop](AppImages/PastBooksFull.png)
 - Sign Up  
-  ![SignUp - Laptop](AppImages/SignUpFull.png)
+  ![SignUp - Laptop](AppImages/SignupFull.png)
 
 📱 **Mobile Devices**
 - Homepage  
@@ -29,7 +29,7 @@ Optimized for a seamless experience across all devices:
 - Past Books  
   ![PastBooks - Mobile](AppImages/PastBooksPhone.png)
 - Sign Up  
-  ![SignUp - Mobile](AppImages/SignUpPhone.png)
+  ![SignUp - Mobile](AppImages/SignupPhone.png)
 
 📱‍💻 **Tablets**
 - Homepage  
@@ -37,7 +37,7 @@ Optimized for a seamless experience across all devices:
 - Past Books  
   ![PastBooks - Tablet](AppImages/PastBooksTablet.png)
 - Sign Up  
-  ![SignUp - Tablet](AppImages/SignUpTablet.png)
+  ![SignUp - Tablet](AppImages/SignupTablet.png)
 
 ---
 
@@ -96,7 +96,7 @@ Users can:
   ![Sort by rating](AppImages/PastBooksFull2.png)
 
 - Sign up to post comments and rate books  
-  ![Sign up](AppImages/SignUpFull.png)
+  ![Sign up](AppImages/SignupFull.png)
 
 - Sign in and sign out  
   ![Signed in welcome](AppImages/HomepageWelcomeNoteFull.png)  
