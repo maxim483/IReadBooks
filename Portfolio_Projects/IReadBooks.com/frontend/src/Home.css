@@ -188,7 +188,7 @@ input::placeholder {
   position: absolute;
   color: rgb(159, 159, 61);
   font-family: "Montserrat", sans-serif;
-  top: 32%;
+  top: 28.5%;
   right: 12%;
   font-size: 20px;
   opacity: 0;
@@ -308,9 +308,9 @@ input::placeholder {
     position: relative;
   }
 
-  #loginMessage {
-    margin-top: 235px;
-    margin-right: 125px;
+  .welcomeNote {
+    top: 53.50%;
+    right: 27%;
   }
 
   .slogan {
@@ -355,9 +355,9 @@ input::placeholder {
     background-position: top right;
   }
 
-  #loginMessage {
-    margin-right: 0px;
-    margin-top: 245px;
+  .welcomeNote {
+    top: 55%;
+    right: 10%;
   }
 
   .slogan {
